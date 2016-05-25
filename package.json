@@ -1,7 +1,7 @@
 {
   "name": "code-stats-atom",
   "main": "./lib/code-stats-atom",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Code::Stats package for Atom",
   "keywords": [
     "code",
@@ -9,7 +9,7 @@
     "fun"
   ],
   "activationHooks": [],
-  "repository": "https://github.com/atom/code-stats-atom",
+  "repository": "https://bitbucket.org/vincit/codestats-atom",
   "license": "MIT",
   "engines": {
     "atom": ">=1.7.4 <2.0.0"

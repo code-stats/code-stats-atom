@@ -1,0 +1,34 @@
+{
+  "name": "code-stats-atom",
+  "main": "./lib/code-stats-atom",
+  "version": "0.1.0",
+  "description": "Code::Stats package for Atom",
+  "keywords": [
+    "code",
+    "statistics",
+    "fun"
+  ],
+  "activationHooks": [],
+  "repository": "https://github.com/atom/code-stats-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.7.4 <2.0.0"
+  },
+  "dependencies": {
+    "status-bar": "^1.2.6"
+  },
+  "configSchema": {
+    "apiKey": {
+      "type": "string",
+      "title": "API key",
+      "default": ""
+    }
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}

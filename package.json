@@ -15,7 +15,7 @@
     "atom": ">=1.7.4 <2.0.0"
   },
   "dependencies": {
-    "status-bar": "^1.2.6"
+    "status-bar": "^1.1.0"
   },
   "configSchema": {
     "apiKey": {

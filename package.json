@@ -1,7 +1,7 @@
 {
   "name": "code-stats-atom",
   "main": "./lib/code-stats-atom",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Code::Stats package for Atom",
   "keywords": [
     "code",
@@ -22,6 +22,12 @@
       "type": "string",
       "title": "API key",
       "default": ""
+    },
+    "apiUrl": {
+      "type": "string",
+      "title": "API URL",
+      "default": "http://localhost:5000/api/my/pulses/",
+      "description": "Only change this if you know what you are doing."
     }
   },
   "consumedServices": {

@@ -1,3 +1,5 @@
+## 1.2.0 - Published in Atom repos
+
 ## 1.0.0 - First public release
 * Added correct licence
 * Some doc fixes

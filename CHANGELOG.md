@@ -1,3 +1,7 @@
+## 1.0.0 - First public release
+* Added correct licence
+* Some doc fixes
+
 ## 0.1.4 - Less load
 * Set upload timer to 10 seconds and ensured it won't upload while typing. This saves the server.
 

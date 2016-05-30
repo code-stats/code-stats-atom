@@ -3,14 +3,18 @@
   "main": "./lib/code-stats-atom",
   "version": "1.0.0",
   "description": "Code::Stats package for Atom",
+  "homepage": "https://codestats.net/",
   "keywords": [
     "code",
     "statistics",
     "fun"
   ],
   "activationHooks": [],
-  "repository": "https://bitbucket.org/vincit/codestats-atom",
-  "license": "MIT",
+  "repository": "https://github.com/Nicd/code-stats-atom",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Nicd/code-stats-atom/issues"
+  },
   "engines": {
     "atom": ">=1.7.4 <2.0.0"
   },

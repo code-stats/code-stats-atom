@@ -1,3 +1,7 @@
+## 1.2.3 - Protip
+
+* Don't code while tired and watching TV. Fix for a fix.
+
 ## 1.2.2 - Another XP fix
 
 * Copypasting and find-replace operations also resulted in huge amounts of XP in some situations. XP was now limited to a max of 200 per operation.

@@ -1,3 +1,7 @@
+## 1.2.1 - Fix for too much XP
+
+* Fixed an issue where operating on a big file gave ridiculous amounts of XP.
+
 ## 1.2.0 - Published in Atom repos
 
 ## 1.0.0 - First public release

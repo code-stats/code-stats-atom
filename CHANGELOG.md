@@ -1,3 +1,7 @@
+## 1.2.2 - Another XP fix
+
+* Copypasting and find-replace operations also resulted in huge amounts of XP in some situations. XP was now limited to a max of 200 per operation.
+
 ## 1.2.1 - Fix for too much XP
 
 * Fixed an issue where operating on a big file gave ridiculous amounts of XP.

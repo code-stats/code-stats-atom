@@ -1,3 +1,9 @@
+## 1.3.2 - Fixes
+
+* Fixed sending pulse even if API key was not set
+* Fixed crash when doing "Replace all" (editor was not available)
+* `apm` wanted to bump the version to 1.3.x for some reason
+
 ## 1.2.3 - Protip
 
 * Don't code while tired and watching TV. Fix for a fix.

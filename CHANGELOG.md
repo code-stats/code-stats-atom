@@ -1,3 +1,16 @@
+## 2.0.0 - Change detection rewrite
+
+The old way of detecting changes in the editor and trying to parse some amount of changed characters from them didn't really work. Sometimes Atom called the change event tens of times repeadetly - which I couldn't reproduce - and that gave users tons of unearned XP. As this happened even after many fixes, I decided to rewrite the plugin. The new version of the plugin listens to keystroke events and thus accurately calculates the amount of XP to give.
+
+Caveats:
+
+* Sometimes keystrokes that don't add characters are counted as XP. For example, if you type ctrl+s, release ctrl and then release s, the s will be counted even though it was not added into the text. I think XP granted by such events will be minimal compared to the amount of code written, so it is not an issue.
+* Copypaste operations are not counted unless you use the trick described above. 😛
+
+Other notes:
+
+* Fixed an issue where the plugin would still send XP even though it was disabled.
+
 ## 1.3.2 - Fixes
 
 * Fixed sending pulse even if API key was not set

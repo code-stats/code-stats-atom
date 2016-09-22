@@ -1,7 +1,7 @@
 {
   "name": "code-stats-atom",
   "main": "./lib/code-stats-atom",
-  "version": "1.3.2",
+  "version": "2.0.0",
   "description": "Code::Stats package for Atom",
   "homepage": "https://codestats.net/",
   "keywords": [

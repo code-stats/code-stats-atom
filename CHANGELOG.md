@@ -1,3 +1,8 @@
+## 2.0.1 - Local time offset
+
+Small change to send the local time offset along with the coding timestamp. This will be
+user in the future for different graphs on the website.
+
 ## 2.0.0 - Change detection rewrite
 
 The old way of detecting changes in the editor and trying to parse some amount of changed characters from them didn't really work. Sometimes Atom called the change event tens of times repeadetly - which I couldn't reproduce - and that gave users tons of unearned XP. As this happened even after many fixes, I decided to rewrite the plugin. The new version of the plugin listens to keystroke events and thus accurately calculates the amount of XP to give.

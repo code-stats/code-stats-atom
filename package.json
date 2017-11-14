@@ -10,7 +10,10 @@
     "fun"
   ],
   "activationHooks": [],
-  "repository": "https://gitlab.com/code-stats/code-stats-atom",
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:code-stats/code-stats-atom.git"
+  },
   "license": "BSD",
   "bugs": {
     "url": "https://gitlab.com/code-stats/code-stats-atom/issues"

@@ -1,3 +1,8 @@
+## 2.0.2 - Repo and UA changes
+
+* Changed repository URLs to point to GitLab where new repository is.
+* Added reporting of plugin version as user-agent in HTTP requests.
+
 ## 2.0.1 - Local time offset
 
 Small change to send the local time offset along with the coding timestamp. This will be

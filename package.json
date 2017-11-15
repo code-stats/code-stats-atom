@@ -16,7 +16,7 @@
   },
   "license": "BSD",
   "bugs": {
-    "url": "https://github.com/code-stats/code-stats-atom/issues"
+    "url": "https://gitlab.com/code-stats/code-stats-atom/issues"
   },
   "engines": {
     "atom": ">=1.7.4 <2.0.0"

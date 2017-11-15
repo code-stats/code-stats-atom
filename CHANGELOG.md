@@ -1,4 +1,6 @@
-## 2.0.3 - Update publish instructions
+## 2.0.4 - Update issues path
+
+## 2.0.3 (unreleased) - Update publish instructions
 
 ## 2.0.2 (unreleased) - Repo and UA changes
 

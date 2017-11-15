@@ -1,4 +1,6 @@
-## 2.0.2 - Repo and UA changes
+## 2.0.3 - Update publish instructions
+
+## 2.0.2 (unreleased) - Repo and UA changes
 
 * Changed repository URLs to point to GitLab where new repository is.
 * Added reporting of plugin version as user-agent in HTTP requests.

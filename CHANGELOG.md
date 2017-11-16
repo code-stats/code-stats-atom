@@ -1,3 +1,7 @@
+## 2.0.6 - Fix UA code
+
+* So it turns out you cannot set user-agent header unless you use an archaic Node.js API so let's do that.
+
 ## 2.0.2 (unreleased) to 2.0.5 - Repo and UA changes
 
 * Changed repository URLs to point to GitLab where new repository is.

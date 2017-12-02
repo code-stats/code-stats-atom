@@ -6,7 +6,7 @@ To use the package, generate an API key on your "Machines" page and copy that AP
 
 Code::Stats is a free statistics tracking service for programmers: [https://codestats.net/](https://codestats.net/)
 
-## Publish instructions
+## Plugin publish instructions for developers
 
 1. Make changes.
 2. Create new tag `vX.Y.Z` corresponding to new version (try to adhere to sort of semantic versioning).
